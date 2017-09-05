@@ -29,7 +29,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="io.micro.qrcode" class="io.micro.qrcode.GenerateQRCodeAction" text="GenerateAction"
+        <action id="io.micro.qrcode" class="io.micro.qrcode.GenerateQRCodeAction" text="Generate QR Code"
                 description="生成二维码">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G"/>
