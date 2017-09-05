@@ -1,0 +1,39 @@
+<idea-plugin>
+    <id>io.micro.plugin.qrcode</id>
+    <name>Generate QR code</name>
+    <version>1.0</version>
+    <vendor email="act262@gmail.com" url="https://github.com/act262">act262</vendor>
+
+    <description><![CDATA[
+      输入文本自动生成二维码.<br>
+      <em>QR Code</em>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      可以生成二维码.<br>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="io.micro.qrcode" class="io.micro.qrcode.GenerateQRCodeAction" text="GenerateAction"
+                description="生成二维码">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G"/>
+        </action>
+    </actions>
+
+</idea-plugin>
