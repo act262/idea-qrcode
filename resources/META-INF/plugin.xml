@@ -2,11 +2,16 @@
     <id>io.micro.plugin.qrcode</id>
     <name>Generate QR code</name>
     <version>1.0</version>
-    <vendor email="act262@gmail.com" url="https://github.com/act262">act262</vendor>
+    <vendor email="act262@gmail.com" url="https://github.com/act262/idea-qrcode">act262</vendor>
 
     <description><![CDATA[
       输入文本自动生成二维码.<br>
       <em>QR Code</em>
+      1. 快捷键：
+      Ctrl+Alt+G 弹出窗口
+      Esc 关闭弹窗
+      2. 生成二维码：
+      输入内容后按Ok按钮或者Alt+Enter组合键
     ]]></description>
 
     <change-notes><![CDATA[
